@@ -3,17 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-"build": "hexo generate",
-  "clean": "hexo clean",
-  "deploy": "hexo deploy",
-  "server": "hexo server",
-  "netlify": "npm run clean && npm run build"
+    "build": "hexo generate",
+    "clean": "hexo clean",
+    "deploy": "hexo deploy",
+    "server": "hexo server",
+    "netlify": "npm run clean && npm run build"
   },
   "hexo": {
     "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "^7.0.0",
+    "hexo": "^7.3.0",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
@@ -28,5 +28,19 @@
   },
   "allowScripts": {
     "hexo-util@3.3.0": true
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Re1No1003/blog-source.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Re1No1003/blog-source/issues"
+  },
+  "homepage": "https://github.com/Re1No1003/blog-source#readme"
 }
